@@ -1,7 +1,7 @@
 
 import styles from "./NameHugo.module.css"
 
-const Nombre = () => {
+const NameHugo = () => {
     const miNombre = "Hugo Eseverri🤗"
 
     return (
@@ -13,4 +13,4 @@ const Nombre = () => {
     )
 };
 
-export default Nombre;
+export default NameHugo;
