@@ -8,7 +8,7 @@ const Nombre = () => {
     return (
         <div className={styles.container}>
             <div className={styles.nameBox}>
-                {miNombre}
+                <h1>{miNombre}</h1>
             </div>
         </div>
     )
