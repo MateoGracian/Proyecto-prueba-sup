@@ -1,11 +1,11 @@
 import {setCount, count} from "react"
 //import Nombre from "./components/Hugo/NameHugo"
-import {Angie} from "../src/components/Angie/Angie";
-import {Carlos} from "../src/components/Carlos/ComponentCarlos";
-import {Cristian} from "../src/components/Cristian/MyComponentCris";
-import {Erik} from "../src/components/Erik/Erik";
+import Angie from "../src/components/Angie/Angie";
+import Carlos from "../src/components/Carlos/ComponentCarlos";
+import {MyComponentCris} from "../src/components/Cristian/MyComponentCris";
+import Erik from "../src/components/Erik/Erik";
 import {Gonzalo} from "../src/components/Gonzalo/Gonzalo";
-import {Hugo} from "../src/components/Hugo/NameHugo";
+import Hugo from "../src/components/Hugo/NameHugo";
 import {Mateo} from "../src/components/Mateo/Mateo";
 import {Paz} from "../src/components/Paz/Paz";
 
@@ -16,7 +16,7 @@ function App() {
     <>
       <Angie></Angie>
       <Carlos></Carlos>
-      <Cristian></Cristian>
+      <MyComponentCris></MyComponentCris>
       <Erik></Erik>
       <Gonzalo></Gonzalo>
       <Hugo></Hugo>

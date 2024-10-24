@@ -1,4 +1,4 @@
-const Paz = () => {
+export const Paz = () => {
     return (
         <div>
             <h1>Paz</h1>

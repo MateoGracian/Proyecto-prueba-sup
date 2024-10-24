@@ -1,4 +1,4 @@
-const Mateo = () => {
+export const Mateo = () => {
     return (
         <div>
             <h1>Mateo</h1>
