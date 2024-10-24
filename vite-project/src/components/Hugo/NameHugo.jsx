@@ -1,6 +1,5 @@
 
-import React from "react";
-import styles from "./Name.module.css"
+import styles from "./NameHugo.module.css"
 
 const Nombre = () => {
     const miNombre = "Hugo Eseverri🤗"

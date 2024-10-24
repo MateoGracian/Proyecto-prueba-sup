@@ -1,23 +1,27 @@
-import React from "react"
-import Nombre from "./components/Hugo/NameHugo"
+import {setCount, count} from "react"
+//import Nombre from "./components/Hugo/NameHugo"
+import {Angie} from "../src/components/Angie/Angie";
+import {Carlos} from "../src/components/Carlos/ComponentCarlos";
+import {Cristian} from "../src/components/Cristian/MyComponentCris";
+import {Erik} from "../src/components/Erik/Erik";
+import {Gonzalo} from "../src/components/Gonzalo/Gonzalo";
+import {Hugo} from "../src/components/Hugo/NameHugo";
+import {Mateo} from "../src/components/Mateo/Mateo";
+import {Paz} from "../src/components/Paz/Paz";
+
 
 function App() {
 
   return (
-<<<<<<< HEAD
-    <div>
-      <Nombre />
-    </div>
-=======
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+      <Angie></Angie>
+      <Carlos></Carlos>
+      <Cristian></Cristian>
+      <Erik></Erik>
+      <Gonzalo></Gonzalo>
+      <Hugo></Hugo>
+      <Mateo></Mateo>
+      <Paz></Paz>
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
@@ -31,7 +35,6 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </>
->>>>>>> 934e71baa6cf30a9dbf87db54f45160ec0c19652
   )
 }
 
